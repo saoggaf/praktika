@@ -17,4 +17,8 @@ public void load(String filename) {
 //загрузка темы из файла
 }
 
+public basedOn(Theme theme) {
+//создание темы на основании другой
+}
+
 }
