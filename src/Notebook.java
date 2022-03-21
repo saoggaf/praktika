@@ -15,4 +15,9 @@ public void open(String filename)
 //открытие файла
 }
 
+public void save()
+{
+//сохранение файла
+}
+
 }
