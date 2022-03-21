@@ -13,4 +13,8 @@ public void save(String filename) {
 //сохранение темы в файл
 }
 
+public void load(String filename) {
+//загрузка темы из файла
+}
+
 }
