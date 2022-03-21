@@ -8,4 +8,9 @@ private Color textColor;
 private Image backgroundImage;
 private Markup markup;
 private List<Image> images;
+
+public void save(String filename) {
+//сохранение темы в файл
+}
+
 }
