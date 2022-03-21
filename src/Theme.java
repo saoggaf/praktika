@@ -7,4 +7,5 @@ private Color backgroundColor;
 private Color textColor;
 private Image backgroundImage;
 private Markup markup;
+private List<Image> images;
 }
