@@ -10,4 +10,9 @@ public void create()
 //создание файла
 }
 
+public void open(String filename)
+{
+//открытие файла
+}
+
 }
