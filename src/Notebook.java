@@ -30,4 +30,9 @@ public List<String> find(String str)
 //поиск по совпадению
 }
 
+public int replace(String from, String to)
+{
+//замена по совпадению
+}
+
 }
