@@ -25,4 +25,9 @@ public void saveAs(String filename)
 //сохранение файла как...
 }
 
+public List<String> find(String str)
+{
+//поиск по совпадению
+}
+
 }
