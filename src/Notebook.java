@@ -20,4 +20,9 @@ public void save()
 //сохранение файла
 }
 
+public void saveAs(String filename)
+{
+//сохранение файла как...
+}
+
 }
