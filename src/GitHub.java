@@ -10,5 +10,9 @@ public void deleteRepository(String link){
 
 }
 
+public void addNotebookToRepository(Notebook note){
+
+}
+
 
 }
