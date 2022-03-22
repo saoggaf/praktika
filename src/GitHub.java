@@ -14,5 +14,8 @@ public void addNotebookToRepository(Notebook note){
 
 }
 
+public void deleteNotebookFromRepository(String link, Notebook){
+
+}
 
 }
