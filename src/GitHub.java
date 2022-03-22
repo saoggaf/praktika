@@ -6,6 +6,9 @@ public void createRepository(String name, Notebook nb){
 
 }
 
+public void deleteRepository(String link){
+
+}
 
 
 }
