@@ -1,0 +1,39 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <book xml:id="simple_book" xmlns="http://docbook.org/ns/docbook" version="5.0">
+   <title>Документация</title>
+   <chapter xml:id="chapter_1">
+     <title>Описание</title>
+     <para>Данное ПО является самостоятельным продуктом.</para>
+	 <para>Данное ПО предсталвяет собой блокнот,
+	 с поддержкой семантики языков программирования и тем оформления.</para>
+	 <para>На данный момент поддерживаются следующие ЯП: C++, C, Java, PHP.</para>
+	 <para>Поддерживается взаимодействия с GitHub (отвечает за возможность создавать репозитории, 
+	которые будут включать указанные файлы, удалять репозитории, добавлять и удалять новые файлы в 
+	существующие репозитории).</para>
+	<para>Поддерживается создание и сохранение собственных тем оформления.</para>
+   </chapter>
+   <chapter xml:id="chapter_2">
+     <title>Примеры использования</title>
+     <para>Создание блокнота с семантикой</para>
+	 <code>Notebook notebook = new Notebook();
+        Semantic semantic = new Java();
+        notebook.setSemantic(semantic);
+        notebook.create("notebook1.txt");
+        notebook.save();
+	</code>
+	<para>Создание собственной темы оформления</para>
+	 <code>Notebook notebook = new Notebook();
+        Theme theme = new Theme();
+        theme.setTextColor(Color.RED);
+        notebook.setTheme(theme);
+	</code>
+	<para>Сохранение и загрузка темы</para>
+	 <code>Theme theme = new Theme();
+		theme.setName("Theme1");
+        theme.setTextColor(Color.GRAY);
+        theme.save("theme.theme");
+		Theme newTheme = new Theme();
+		newTheme.load("theme.theme");
+	</code>
+   </chapter>
+ </book>

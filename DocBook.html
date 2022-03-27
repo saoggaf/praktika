@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Документация</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">Документация</h1>
+</header>
+<h1 id="chapter_1">Описание</h1>
+<p>Данное ПО является самостоятельным продуктом.</p>
+<p>Данное ПО предсталвяет собой блокнот, с поддержкой семантики языков программирования и тем оформления.</p>
+<p>На данный момент поддерживаются следующие ЯП: C++, C, Java, PHP.</p>
+<p>Поддерживается взаимодействия с GitHub (отвечает за возможность создавать репозитории, которые будут включать указанные файлы, удалять репозитории, добавлять и удалять новые файлы в существующие репозитории).</p>
+<p>Поддерживается создание и сохранение собственных тем оформления.</p>
+<h1 id="chapter_2">Примеры использования</h1>
+<p>Создание блокнота с семантикой</p>
+Notebook notebook = new Notebook(); Semantic semantic = new Java(); notebook.setSemantic(semantic); notebook.create("notebook1.txt"); notebook.save();
+<p>Создание собственной темы оформления</p>
+Notebook notebook = new Notebook(); Theme theme = new Theme(); theme.setTextColor(Color.RED); notebook.setTheme(theme);
+<p>Сохранение и загрузка темы</p>
+Theme theme = new Theme(); theme.setName("Theme1"); theme.setTextColor(Color.GRAY); theme.save("theme.theme"); Theme newTheme = new Theme(); newTheme.load("theme.theme");
+</body>
+</html>
