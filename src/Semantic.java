@@ -1,4 +1,24 @@
+/**
+ * Семантика языка
+ * <p>
+ * Интерфейс предоставляет функцию
+ * проверки строк на правила семантики
+ *
+ * @author Мелещенко Николай
+ * @version 1.0
+ */
 public interface Semantic {
-List<Rules> getRules();
-void check(List<String> strings);
+    /**
+     * Правила семантики языка
+     *
+     * @return правила семантики языка
+     */
+    List<Rules> getRules();
+
+    /**
+     * Проверка строк на соответствие правилам семантики
+     *
+     * @param strings строки для проверки
+     */
+    void check(List<String> strings);
 }

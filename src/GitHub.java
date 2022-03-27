@@ -1,21 +1,53 @@
+/**
+ * GitHub
+ * <p>
+ * Класс реализует базовый функционал GitHub
+ *
+ * @author Мелещенко Николай
+ * @version 1.0
+ */
+@Getter
+@Setter
 public class GitHub {
-private String username;
-private String password;
+    private String username;
+    private String password;
 
-public void createRepository(String name, Notebook nb){
+    /**
+     * Создание репозитория
+     *
+     * @param name название
+     * @param nb   блокнот
+     */
+    public void createRepository(String name, Notebook nb) {
 
-}
+    }
 
-public void deleteRepository(String link){
+    /**
+     * Удаление репозитория
+     *
+     * @param link ссылка на репозиторий
+     */
+    public void deleteRepository(String link) {
 
-}
+    }
 
-public void addNotebookToRepository(Notebook note){
+    /**
+     * Добавление блокнота в репозиторий
+     *
+     * @param note блокнот
+     */
+    public void addNotebookToRepository(Notebook note) {
 
-}
+    }
 
-public void deleteNotebookFromRepository(String link, Notebook){
+    /**
+     * Удаление блокнота из репозитория
+     *
+     * @param link     ссылка на репозиторий
+     * @param notebook блокнот
+     */
+    public void deleteNotebookFromRepository(String link, Notebook notebook) {
 
-}
+    }
 
 }
